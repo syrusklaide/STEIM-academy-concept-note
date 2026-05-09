@@ -98,7 +98,7 @@ nav.scrolled{
   text-decoration:none;
 }
 .nav-logo-img{
-  height:40px;width:auto;object-fit:contain;
+  height:52px;width:auto;object-fit:contain;
 }
 .nav-logo-placeholder{
   display:flex;flex-direction:column;
@@ -248,7 +248,7 @@ nav.scrolled{
 }
 @keyframes fadeScale{to{opacity:1;transform:scale(1)}}
 .hero-photo-frame{
-  width:clamp(250px,35vw,440px);height:clamp(280px,40vw,500px);
+  width:clamp(300px,42vw,520px);height:clamp(200px,28vw,360px);
   border-radius:4px;overflow:hidden;
   border:1px solid var(--border);
   position:relative;
@@ -866,11 +866,7 @@ footer p{font-size:11px;color:var(--text-muted);letter-spacing:1px;}
 <!-- NAV -->
 <nav id="nav">
   <a href="#" class="nav-logo">
-    <img src="images/about.jpg" alt="STEIM in action">
-    <div class="nav-logo-placeholder">
-      <span class="nav-logo-main">STEIM</span>
-      <span class="nav-logo-sub">STEM MEETS INCOME</span>
-    </div>
+    <img src="logo.png" alt="STEIM Academy" class="nav-logo-img">
   </a>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
@@ -919,14 +915,7 @@ footer p{font-size:11px;color:var(--text-muted);letter-spacing:1px;}
 
     <div class="hero-visual">
       <div class="hero-photo-frame">
-        <img src="images/kid.jpg" alt="STEIM Student">
-        <div class="hero-photo-placeholder">
-          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-            <rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/>
-            <polyline points="21,15 16,10 5,21"/>
-          </svg>
-          <p>PLACE YOUR HERO<br>IMAGE HERE<br><br>images/kid.jpg</p>
-        </div>
+        <img src="kid.jpg" alt="STEIM Student" style="width:100%;height:100%;object-fit:cover;object-position:center top;">
       </div>
       <div class="hero-frame-accent"></div>
       <div class="hero-frame-accent-2"></div>
@@ -983,14 +972,7 @@ footer p{font-size:11px;color:var(--text-muted);letter-spacing:1px;}
       </div>
       <div class="about-visual reveal-right">
         <div class="about-image-frame">
-          <!-- ABOUT IMAGE PLACEHOLDER: Replace with <img src="images/about.jpg" alt="STEIM in action"> -->
-          <div class="about-image-placeholder">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
-              <rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/>
-              <polyline points="21,15 16,10 5,21"/>
-            </svg>
-            <p>ABOUT SECTION IMAGE<br>images/about.jpg<br><br>e.g. "The Possible Uganda"<br>banner or classroom photo</p>
-          </div>
+          <img src="kid.jpg" alt="The Possible Uganda" style="width:100%;height:100%;object-fit:cover;object-position:center top;">
         </div>
         <div class="about-accent-card">
           <div class="big">36+</div>
@@ -1536,4 +1518,4 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
 });
 </script>
 </body>
-</html>
+      </html>
